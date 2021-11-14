@@ -7,6 +7,7 @@
 
     .container-fluid .background{
       border-radius: 0 0 85% 85% / 15%;
+      height: 80%;
     }
     /**----------------------------------------------------Header and NavBar----------------------------------------------------------------**/
     .header nav{
@@ -55,7 +56,7 @@
     }
     .header .header-content{
         margin-left: 0px;
-        margin-top:30%;
+        margin-top:60%;
         text-align: center;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: none;
