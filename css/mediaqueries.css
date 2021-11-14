@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px){
 
-  body{
+  html, body{
+    position: relative;
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -32,12 +33,12 @@
       flex-direction: column;
       position: absolute;
       top: 70px;
-      width: 100%;
-      transform: translateX(100%);
+      width: 15rem;
+      transform: translateX(180%);
       transition: all 1.4s;
     }
     nav .menu-toogle{
-        transform: translateX(20%);
+        transform: translateX(90%);
         padding: 0px;
     }
     nav .menu li{
@@ -56,7 +57,7 @@
     }
     .header .header-content{
         margin-left: 0px;
-        margin-top:60%;
+        margin-top:55%;
         text-align: center;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: none;
